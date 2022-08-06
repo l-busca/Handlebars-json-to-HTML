@@ -1,0 +1,8 @@
+{
+    "person": {
+      "name": "Sam",
+      "country": "England",
+      "tasks": ["develop", "run", "speak"],
+      "age": 34
+    }
+  }

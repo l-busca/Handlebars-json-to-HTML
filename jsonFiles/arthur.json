@@ -1,0 +1,8 @@
+{
+    "person": {
+      "name": "Arthur",
+      "country": "USA",
+      "tasks": ["manage", "negotiate", "make joke"],
+      "age": 27
+    }
+  }
