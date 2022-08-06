@@ -19,8 +19,6 @@ function importJson(dir) {
 
 const htmlHeader = "<!DOCTYPE html><html><head><meta charset='utf-8'><title>Test</title></head>";
 
-const htmlContents = [];
-
 let source = "<p>Hello, my name is {{person.name}}, I'm {{person.age}}. I am from {{person.country}}. I can do " +
              "{{person.tasks.length}} tasks:</p>" +
              "<ul>{{#each person.tasks}}<li>{{this}}</li>{{/each}}</ul>";
@@ -37,8 +35,6 @@ jsonFiles.forEach(file => {
     });
 
 });
-
-console.log(htmlContents);
 
 
 
